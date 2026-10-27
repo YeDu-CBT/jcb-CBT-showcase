@@ -1,0 +1,15 @@
+test_memo_editor web exit=0 == web: PASS 193 / FAIL 0 ==
+test_memomark web exit=0 == web: PASS 32 / FAIL 0 ==
+test_sync_memo web exit=0 == web: PASS 113 / FAIL 0 ==
+test_enter_merge web exit=0 == web: PASS 34 / FAIL 0 ==
+test_output_similar web exit=0 == web: PASS 82 / FAIL 0 ==
+test_blank_expl_typo web exit=0 == web: PASS 119 / FAIL 0 ==
+test_dups web exit=0 == web: PASS 63 / FAIL 0 ==
+test_variants web exit=0 == PASS 82 / FAIL 0 ==
+test_save_feature web exit=0 == web: PASS 63 / FAIL 0 ==
+test_recfile web exit=0 [web] PASS 136 / FAIL 0
+test_autofocus web exit=0 == web: PASS 35 / FAIL 0 ==
+test_copy_button web exit=0 == web: PASS 37 / FAIL 0 ==
+test_replace13 web exit=0 TOTAL PASS 201 FAIL 0
+test_jcb_flow_regress web exit=0 == web: PASS 11 / FAIL 0 ==
+DONE

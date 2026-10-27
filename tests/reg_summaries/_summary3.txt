@@ -1,0 +1,34 @@
+test_output_similar web exit=0 == web: PASS 82 / FAIL 0 ==
+test_output_similar sa_file exit=0 == sa_file: PASS 82 / FAIL 0 ==
+test_output_similar sa_http exit=0 == sa_http: PASS 82 / FAIL 0 ==
+test_blank_expl_typo web exit=1 == web: PASS 114 / FAIL 5 ==
+test_blank_expl_typo sa_file exit=1 == sa_file: PASS 114 / FAIL 5 ==
+test_blank_expl_typo sa_http exit=1 == sa_http: PASS 114 / FAIL 5 ==
+test_dups web exit=0 == web: PASS 63 / FAIL 0 ==
+test_dups sa_file exit=0 == sa_file: PASS 59 / FAIL 0 ==
+test_dups sa_http exit=0 == sa_http: PASS 63 / FAIL 0 ==
+test_memomark web exit=0 == web: PASS 32 / FAIL 0 ==
+test_memomark sa_file exit=0 == sa_file: PASS 29 / FAIL 0 ==
+test_memomark sa_http exit=0 == sa_http: PASS 32 / FAIL 0 ==
+test_variants web exit=1 == PASS 80 / FAIL 2 ==
+test_variants sa_file exit=1 == PASS 80 / FAIL 2 ==
+test_variants sa_http exit=1 == PASS 80 / FAIL 2 ==
+test_save_feature web exit=1 == web: PASS 61 / FAIL 2 ==
+test_save_feature sa_file exit=1 == sa_file: PASS 61 / FAIL 2 ==
+test_save_feature sa_http exit=1 == sa_http: PASS 61 / FAIL 2 ==
+test_recfile web exit=1 
+test_recfile sa_file exit=1 
+test_recfile sa_http exit=1 
+test_autofocus web exit=1 == web: PASS 34 / FAIL 1 ==
+test_autofocus sa_file exit=1 == sa_file: PASS 34 / FAIL 1 ==
+test_autofocus sa_http exit=1 == sa_http: PASS 34 / FAIL 1 ==
+test_copy_button web exit=1 == web: PASS 36 / FAIL 1 ==
+test_copy_button sa_file exit=1 == sa_file: PASS 36 / FAIL 1 ==
+test_copy_button sa_http exit=1 == sa_http: PASS 36 / FAIL 1 ==
+test_replace13 web exit=1 
+test_replace13 sa_file exit=1 
+test_replace13 sa_http exit=1 
+test_jcb_flow_regress web exit=0 == web: PASS 11 / FAIL 0 ==
+test_jcb_flow_regress sa_file exit=0 == sa_file: PASS 11 / FAIL 0 ==
+test_jcb_flow_regress sa_http exit=0 == sa_http: PASS 11 / FAIL 0 ==
+DONE

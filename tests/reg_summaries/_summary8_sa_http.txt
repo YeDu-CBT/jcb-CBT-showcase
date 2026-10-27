@@ -1,0 +1,15 @@
+test_memo_editor sa_http exit=0 == sa_http: PASS 193 / FAIL 0 ==
+test_memomark sa_http exit=0 == sa_http: PASS 32 / FAIL 0 ==
+test_sync_memo sa_http exit=0 == sa_http: PASS 113 / FAIL 0 ==
+test_enter_merge sa_http exit=0 == sa_http: PASS 34 / FAIL 0 ==
+test_output_similar sa_http exit=0 == sa_http: PASS 82 / FAIL 0 ==
+test_blank_expl_typo sa_http exit=0 == sa_http: PASS 119 / FAIL 0 ==
+test_dups sa_http exit=0 == sa_http: PASS 63 / FAIL 0 ==
+test_variants sa_http exit=0 == PASS 82 / FAIL 0 ==
+test_save_feature sa_http exit=0 == sa_http: PASS 63 / FAIL 0 ==
+test_recfile sa_http exit=0 [sa_http] PASS 125 / FAIL 0
+test_autofocus sa_http exit=0 == sa_http: PASS 35 / FAIL 0 ==
+test_copy_button sa_http exit=0 == sa_http: PASS 37 / FAIL 0 ==
+test_replace13 sa_http exit=0 
+test_jcb_flow_regress sa_http exit=0 == sa_http: PASS 11 / FAIL 0 ==
+DONE

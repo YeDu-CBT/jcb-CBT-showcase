@@ -1,0 +1,50 @@
+# 수정 전 백업 — git 이력이 대신한다 (원본은 3of3 압축으로 따로 보관)
+backup_before_*/
+
+# 2차 대조 작업장 — 결과는 raw/에 반영됨 (원본은 2of3 압축으로 따로 보관)
+jcb_restored/누락문제_작업/
+
+# 파이썬 캐시·편집기 사본
+__pycache__/
+*.pyc
+*.bak
+*.bak_*
+*.pre_edit
+
+# 압축 파일
+*.zip
+
+# 시험 산출물 (tests/run_regression.sh 가 만든다)
+tests/_out/
+tests/_srv/
+tests/_logs/
+tests/_mockdb.log
+
+# 운영체제 부산물
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── 공개 저장소 전용: 문제 본문이 든 파일은 실수로라도 커밋되지 않게 막는다 ──
+# (시험을 돌리려고 비공개 저장소의 데이터를 옆에 복사해 두어도 올라가지 않음)
+jcb_restored/raw/
+jcb_restored/images/
+jcb_restored/formatted_*.json
+jcb_restored/restored_specs.json
+jcb_restored/variants.json
+jcb_restored/answer_output_report.json
+jcb_restored/code_typo_report.json
+jcb_restored/apply_*.py
+jcb_restored/fig_er_blog.py
+jcb_restored/build_diff_doc.js
+jcb_restored/블로그_비교_확인용_차이목록.*
+jcb_restored/보기_본문_누락_의심_문항.md
+jcb_restored/정보처리기사_실기_복원문제_*
+jcb_restored/*.jpg
+jcb_cbt/site/data.json
+jcb_cbt/site/img/
+jcb_cbt/standalone/
+jcb_cbt/merge_report.json
+jcb_cbt/replace_report.json
+tests/test_replace13*.py
+tests/test_variants.py
